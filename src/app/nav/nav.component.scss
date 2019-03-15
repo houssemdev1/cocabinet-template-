@@ -1,0 +1,66 @@
+@font-face {
+    font-family:Quicksand-bold;
+    src: url(../../assets/font/Quicksand-Bold.otf);
+  }
+  
+  @font-face {
+    font-family:Quicksand-normal;
+    src: url(../../assets/font/Quicksand-Regular.otf);
+  }
+  
+  .nav-item {
+    font-family:Quicksand-bold;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+    font-size: 14px;
+    text-transform: capitalize;
+  
+    color: #2a225a !important;
+  }
+  
+  
+
+  .col {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  
+  img{
+      padding-right:100px
+  }
+  li{
+     padding-right: 45px
+  }
+  a
+  {
+    font-family: MyFirstFont;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: normal;
+    text-transform: capitalize;
+    
+    color: #2A225A;
+  text-decoration: none;
+  }
+  
+  .title-blue{
+      margin-top: 92px
+  }
+  .simple-text{
+    padding-top:18px
+  }
+  .btn-ajout{
+   margin-top:32px
+  }
+  .card{
+      margin-top: 93px;
+      width: 350px;
+      height: 240px;
+  }
+  .img-card{
+      padding-left: 83px;
+      padding-top:31px 
+  }
+

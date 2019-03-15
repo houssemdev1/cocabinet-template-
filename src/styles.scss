@@ -1,1 +1,114 @@
 /* You can add global styles to this file, and also import other style files */
+
+/*style des titres*/
+$title_color:("blue");
+@each $title in $title_color {
+    .title-#{$title}
+    {
+        color: #8F68FC;
+        font-family: Quicksand-bold;
+        font-style: normal;
+        font-weight: bold;
+        line-height: normal;
+        font-size: 28px;
+        padding-top: 14px;
+
+    }
+}
+
+$title_color:("white");
+@each $title in $title_color {
+    .title-#{$title}
+    {
+        color: #FFFFFF;
+        font-family:Quicksand-bold;
+        font-style: normal;
+        font-weight: bold;
+        line-height: normal;
+        font-size: 30px;
+        padding-top: 14px;
+
+    }
+}
+
+
+/*simple paragraphes*/
+$prg:("text");
+@each $title in $prg {
+    .simple-#{$prg}
+    {
+font-family:Quicksand-normal;
+font-style: normal;
+font-weight: normal;
+line-height: normal;
+font-size: 18px;
+display: block;
+
+color: #9997B1;
+}}
+
+/*bouttons personnalisés*/
+/*simple paragraphes*/
+$button:("ajout");
+@each $item in $button {
+    .btn-#{$button}
+    {
+width: 255px;
+height: 50px;
+background: linear-gradient(119.05deg, #8F68FC 0%, #292984 100.61%);
+border-radius: 5px;
+}}
+.btn-inscription{
+width: 160px;
+height: 50px;
+background: linear-gradient(119.05deg, #8F68FC 0%, #292984 100.61%);
+border-radius: 5px;
+}
+.content-btn{
+font-family: Quicksand-bold;
+font-style: normal;
+font-weight: bold;
+line-height: normal;
+font-size: 14px;
+text-transform: capitalize;
+text-align: center;
+
+color: #FFFFFF;
+border-radius: 5px;
+}
+/*style de conteneur pour les card lirem,volputate,cras*/
+.globalcontent{
+    width: 340px;
+    height: 104px;
+background: white;
+}
+/*style de conteneur pour les card lirem,volputate,cras*/
+.interncontent{
+    padding-top: 22px;
+ 
+    width: 300px;
+    height: 48px;
+}
+/*style for text in cards lorem icon,gras icon*/
+.icon-title{
+    font-family:Quicksand-bold; 
+    font-style: normal;
+    font-weight: bold;
+    line-height: 24px;
+    font-size: 18px;
+    
+    color: rgba(31, 32, 65, 0.75);
+}
+/*style pour le contenu des icones*/
+.icon-content{
+    font-family: myFirstFont;
+font-style: normal;
+
+line-height: 24px;
+font-size: 14px;
+
+color: rgba(31, 32, 65, 0.75);
+
+}
+
+
