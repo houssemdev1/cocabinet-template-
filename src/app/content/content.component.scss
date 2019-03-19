@@ -1,0 +1,179 @@
+@font-face {
+    font-family:Montserrat-normal;
+    src: url(../../assets/font/Montserrat-Light.otf);
+  }
+
+ 
+  .col-lg-3{
+      padding-right: 0px;
+      padding-left: 0px;
+  }
+
+
+.first-title{
+    margin-top: 122px
+}
+
+.cabinet{
+    position: relative;
+}
+.etoile{
+padding-left: 185px;
+padding-top: 27px;
+   position:absolute; 
+ 
+}
+.euro{
+    float: left;
+    position: absolute; 
+    padding-top: 27px;
+
+}
+
+.picture-title{
+    position: relative;
+    padding-top: 140px
+}
+.log-picture{
+    position:absolute
+}
+
+h5{
+
+font-family: Quicksand-bold;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: normal;
+
+color: #FFFFFF;
+}
+
+.title-logo{
+    float: left
+;
+}
+.blue-title{
+    font-family: Quicksand-bold;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: normal;
+    padding-left: 5px;
+    padding-top: 5px;
+    color: #8F68FC;
+    
+}
+
+.white-title{
+    font-family: Quicksand-bold;
+font-style: normal;
+font-weight: bold;
+font-size: 30px;
+line-height: normal;
+padding-left: 5px;
+padding-top: 5px;
+color: #FFFFFF;
+}
+
+.card-title{
+    font-family: Quicksand-bold;
+font-style: normal;
+font-weight: 500;
+font-size: 17px;
+line-height: normal;
+letter-spacing: -0.01em;
+padding-top: 21px;
+color: #3A3768;
+}
+.cabinet-details{
+    font-family: Quicksand-normal;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 24px;
+    
+    color: #9997B1;
+}
+
+.ellipse-title{
+    font-family: Quicksand-bold;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: normal;
+    padding-top: 30px;
+    color: #3A3768;
+
+}
+
+.ellipse-content{
+    font-family: Montserrat-normal;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 20px;
+
+color: #3A3768;
+
+}
+
+.smile-title{
+
+font-family: Quicksand-bold;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 24px;
+
+color: rgba(31, 32, 65, 0.75);
+}
+
+.smile-content{
+    font-family: Quicksand-normal;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 24px;
+
+color: rgba(31, 32, 65, 0.75);
+}
+
+
+.help-card{
+    width: 350px;
+    height: 104px;
+    background: white;
+    border-radius: 5px
+}
+.icone{
+float: left;
+padding-top: 32px;
+padding-left: 41px;
+padding-right: 14px
+}
+.icone-title{
+    padding-top: 32px;
+padding-left: 14px;
+font-family: Quicksand-bold;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height:15px;
+
+color: rgba(31, 32, 65, 0.75);
+}
+.icone-description{
+
+    font-family: Quicksand-normal;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    
+    padding-left: 14px;
+    color: rgba(31, 32, 65, 0.75);
+}
+
+.row{
+  padding-left:15px
+}

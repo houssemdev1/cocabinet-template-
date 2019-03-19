@@ -1,13 +1,17 @@
-@font-face {
-    font-family:Quicksand-bold;
-    src: url(../../assets/font/Quicksand-Bold.otf);
-  }
-  
-  @font-face {
-    font-family:Quicksand-normal;
-    src: url(../../assets/font/Quicksand-Regular.otf);
-  }
-  
+
+.navbar{
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+
+.btn-inscription{
+  width: 160px;
+  height: 50px;
+  background: linear-gradient(119.05deg, #8F68FC 0%, #292984 100.61%);
+  border-radius: 5px;
+ 
+}
   .nav-item {
     font-family:Quicksand-bold;
     font-style: normal;
@@ -19,28 +23,38 @@
     color: #2a225a !important;
   }
   
-  
+  .icon-title{
+padding-top: 5px;
+ 
+    font-family: Quicksand-bold;
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 24px;
+    
+    color: #3A3768;
+    
+    }
 
   .col {
     padding-left: 0px;
     padding-right: 0px;
   }
   
-  img{
-      padding-right:100px
-  }
+
   li{
      padding-right: 45px
   }
   a
   {
-    font-family: MyFirstFont;
+    font-family:Quicksand-bold;
     font-style: normal;
     font-weight: bold;
     font-size: 14px;
     line-height: normal;
     text-transform: capitalize;
-    
+
     color: #2A225A;
   text-decoration: none;
   }
@@ -54,13 +68,37 @@
   .btn-ajout{
    margin-top:32px
   }
-  .card{
-      margin-top: 93px;
-      width: 350px;
-      height: 240px;
-  }
-  .img-card{
-      padding-left: 83px;
-      padding-top:31px 
-  }
+ 
 
+  .card{
+ transform: translateY(-50%);
+    width: 350px;
+    height: 240px;
+}
+.img-card{
+    padding-top:31px 
+}
+.img-card3{
+  padding-top:34px 
+}
+
+.number-icone1,.number-icone3{
+float: left;
+padding-left: 50px;
+
+padding-right: 14px
+
+
+}
+
+.number-icone2{
+  float: left;
+padding-left: 10px;
+padding-right: 14px
+}
+
+.second-section{
+  background: #F8F8FB;
+  position: relative;
+  margin-top: 200px;
+}

@@ -1,5 +1,14 @@
 /* You can add global styles to this file, and also import other style files */
-
+@font-face {
+    font-family:Quicksand-bold;
+    src: url(../src/assets/font/Quicksand-Bold.otf);
+  }
+  
+  @font-face {
+    font-family:Quicksand-normal;
+    src: url(../src/assets/font/Quicksand-Regular.otf);
+  }
+  
 /*style des titres*/
 $title_color:("blue");
 @each $title in $title_color {
@@ -49,21 +58,14 @@ color: #9997B1;
 
 /*bouttons personnalisés*/
 /*simple paragraphes*/
-$button:("ajout");
-@each $item in $button {
-    .btn-#{$button}
+.add-button
     {
 width: 255px;
 height: 50px;
 background: linear-gradient(119.05deg, #8F68FC 0%, #292984 100.61%);
 border-radius: 5px;
-}}
-.btn-inscription{
-width: 160px;
-height: 50px;
-background: linear-gradient(119.05deg, #8F68FC 0%, #292984 100.61%);
-border-radius: 5px;
 }
+
 .content-btn{
 font-family: Quicksand-bold;
 font-style: normal;
